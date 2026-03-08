@@ -1,3 +1,5 @@
+# Ignore all tar archive files
+*.tar
 # Ignore all database files
 *.db
 # Byte-compiled / optimized / DLL files
