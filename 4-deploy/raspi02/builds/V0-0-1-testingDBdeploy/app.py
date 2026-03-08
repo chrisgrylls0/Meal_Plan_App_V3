@@ -108,8 +108,9 @@ import uvicorn
 import threading
 
 def run():
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8000)
 
 threading.Thread(target=run).start()
 
-# then go to http://127.0.0.1:8000/recipes
+# then go to http://127.0.0.1:8000/recipes, 
+# as long as above host is 127.0.0.1
